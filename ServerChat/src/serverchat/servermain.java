@@ -4,15 +4,15 @@
  * and open the template in the editor.
  */
 package serverchat;
-
+import java.io.*;
+import java.net.*;
 /**
  *
- * @author informatica
+ * @author Leonardo
  */
-public class servermain {
+public class servermain{
     public static void main(String[] args) {
-        // TODO code application logic here
-        MultiChat chat=new MultiChat();
+        MultiChat chat = new MultiChat();
         chat.Avvia();
     }
 }

@@ -4,19 +4,16 @@
  * and open the template in the editor.
  */
 package clientchat;
-
 /**
  *
- * @author informatica
+ * @author Leonardo
  */
-public class clientmain {
+public class clientmain1 {
     public static void main(String[] args) {
-        // TODO code application logic here
-        ClientChat1 client1=new ClientChat1();
-        client1.connetti();    
-        ClientChat1 client2=new ClientChat1();
-        
+        ClientChat1 client1 = new ClientChat1(); 
+        client1.connetti();
+        while(true){
         client1.comunica();
-        
+        }
     }
 }
